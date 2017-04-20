@@ -1,0 +1,309 @@
+body {
+	margin: 0;
+}
+
+#topNav {
+	background: #151931;
+    text-align: center;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+ }
+
+.selected {
+	color: white;
+	border-bottom: 2px solid #c2002e;
+	padding-bottom: 3px;
+
+}
+
+.headers {
+	background: #151931;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+ li {
+    display:inline;
+    padding: 40px;
+}
+
+a {
+	display:inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #616382;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+a:hover{
+	color: white;
+	
+}
+
+#h1 {
+	padding-top: 80px;
+	color: #ffffff;
+	font-family: 'PT Serif', serif;
+	font-size: 68px;
+	font-weight: 100;
+	margin:0;
+	
+}
+
+#h3	{
+	color: #c2002e;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	margin:0;
+}
+
+#h5 {
+	color: #ffffff;
+	font-style: italic;
+	padding-top: 20px;
+	font-size: 12.5px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+img {
+	width: 100%;
+  display: block;
+}
+
+
+
+/*contact css below*/
+
+.forms {
+	/*text-align: center;*/
+	background-color: white;
+	width: 100%;
+	margin-top: 120px;
+	/*display: inline-block;*/
+	padding-bottom: 150px;
+}
+
+
+input, label {
+	display: block;
+
+}
+
+input {
+	margin-bottom: 10px;
+	width: 67%;
+	border: 1px solid black;
+	border-radius: 5px;
+	/*margin: 0 auto;*/
+}
+
+label {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 350px;
+}
+
+.email {
+	line-height: 30px;
+	margin-bottom: 20px;
+
+}
+
+.message {
+	line-height: 200px;
+}
+
+
+
+.e, .m {
+	line-height: 30px;
+}
+
+
+.footer {
+	background-color: #000612;
+	text-align: right;
+    padding-bottom: 40px;
+    padding-right: 10%;
+    padding-top: 10px;
+    display: block;
+
+}
+
+.copyright {
+	float: left;
+	color: #616382;
+	padding-left: 10%;
+	padding-top: 2px;
+}
+
+.pic {
+	margin-bottom: -10px;
+}
+
+#wrap {
+    background: #f6f6f7;
+    padding-bottom: 60px;
+    text-align: center;
+    width: 100%; 
+    margin: 0;
+
+}
+
+#left, #right {
+     background: #f6f6f7;
+     display: inline-block;    
+     text-align: center;
+     width: 20%; 
+ }
+
+#left {
+	margin-right: 80px;
+}
+
+#right {
+	margin-left: 80px;
+}
+
+.h2 {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+#p1,#p2, .h2 {
+	text-align: left;
+}
+
+#previous, #next, #arrowlink {
+	color: #c2002e;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+#previous {
+	text-align: left;
+}
+
+#next {
+	text-align: right;
+}
+
+
+/*About us css*/
+
+#bod {
+	width: 100%;
+	display:inline-block;
+	padding-bottom: 80px;
+	margin-top: 115px;
+}
+
+.content{
+	text-align: left;
+	width: 44%;
+	margin-left: 30%;
+	font-size: 16px;
+	padding: 0;
+	margin-top: 0;
+	line-height: 20px;
+}
+
+#firstletter { 
+  float: left;
+  font-weight: bold;
+ font-size: 50px;
+ padding-top: 15px;
+ padding-right: 8px;
+ line-height: 10px;
+}
+
+#wrap1 {
+    background: #f6f6f7;
+    padding-bottom: 60px;
+    text-align: center;
+    width: 100%;
+    margin:0  
+
+}
+
+/*stories css*/
+
+#pic2 {
+	padding: 30px 0;
+	float: left;
+	width: 60%;
+	display:inline-block;
+	margin-left: 15%;
+}
+
+
+
+#side-text {
+	width: 15%;
+	display:inline-block;
+	margin-top: 30px;
+	padding-top: 20px;
+	margin-left: 20px;
+	border-top: 2px solid #c2002e;
+	font-style: italic;
+	font-size: 14px;
+}
+
+#side {
+	width: 100%;
+}
+
+#comments{
+	width: 100%;
+	float: center;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#bottom-text {
+	font-style: italic;
+	border-bottom: 2px solid #c2002e;
+	padding-bottom: 4px;
+	display:inline-block;
+}
+
+#middle {
+	width: 100%;
+	display:inline-block;
+	padding: 40px 0;
+}
+
+#middle-comment{
+	text-align: left;
+	width: 43%;
+	margin-left: 30%;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-left: 2px solid #c2002e;
+	font-style: italic;
+	padding-left: 15px;
+	font-size: 125%;
+}
+
+#vid {
+	margin-right: 100px;
+	padding-left: 20px;
+	float: right;
+
+}
